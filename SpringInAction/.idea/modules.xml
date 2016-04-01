@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/1_DI_Simple_Example/1_DI_Simple_Example.iml" filepath="$PROJECT_DIR$/1_DI_Simple_Example/1_DI_Simple_Example.iml" />
+      <module fileurl="file://$PROJECT_DIR$/2_AOP_Simple_Example/2_AOP_Simple_Example.iml" filepath="$PROJECT_DIR$/2_AOP_Simple_Example/2_AOP_Simple_Example.iml" />
+      <module fileurl="file://$PROJECT_DIR$/3_Component_Scan/3_Component_Scan.iml" filepath="$PROJECT_DIR$/3_Component_Scan/3_Component_Scan.iml" />
+      <module fileurl="file://$PROJECT_DIR$/4_JavaConfig/4_JavaConfig.iml" filepath="$PROJECT_DIR$/4_JavaConfig/4_JavaConfig.iml" />
+      <module fileurl="file://$PROJECT_DIR$/5_MixingUp/5_MixingUp.iml" filepath="$PROJECT_DIR$/5_MixingUp/5_MixingUp.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SpringInAction.iml" filepath="$PROJECT_DIR$/SpringInAction.iml" />
+    </modules>
+  </component>
+</project>
+
