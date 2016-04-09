@@ -5,7 +5,6 @@
 *.war
 *.ear
 
-*\.idea\*
-*\target\*
-SpringInAction\.idea\*
+*.idea*
+*target*
 *.iml
