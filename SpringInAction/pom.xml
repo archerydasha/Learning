@@ -14,7 +14,10 @@
         <module>3_Component_Scan</module>
         <module>4_JavaConfig</module>
         <module>5_MixingUp</module>
+        <module>6_Webapp_with_profiles</module>
     </modules>
+
+
 
     <properties>
         <spring.version>4.1.6.RELEASE</spring.version>
