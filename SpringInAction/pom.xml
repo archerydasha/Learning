@@ -15,8 +15,8 @@
         <module>4_JavaConfig</module>
         <module>5_MixingUp</module>
         <module>6_Webapp_with_profiles</module>
+        <module>7_Mixing_up_again</module>
     </modules>
-
 
 
     <properties>
@@ -36,14 +36,19 @@
                 <version>${spring.version}</version>
             </dependency>
             <dependency>
-                <groupId>aspectj</groupId>
-                <artifactId>aspectjweaver</artifactId>
-                <version>1.5.4</version>
+                <groupId>org.springframework</groupId>
+                <artifactId>spring-web</artifactId>
+                <version>${spring.version}</version>
             </dependency>
             <dependency>
                 <groupId>org.springframework</groupId>
                 <artifactId>spring-test</artifactId>
                 <version>${spring.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>aspectj</groupId>
+                <artifactId>aspectjweaver</artifactId>
+                <version>1.5.4</version>
             </dependency>
             <dependency>
                 <groupId>junit</groupId>
@@ -56,6 +61,11 @@
                 <artifactId>mockito-all</artifactId>
                 <version>1.10.19</version>
                 <scope>test</scope>
+            </dependency>
+            <dependency>
+                <groupId>javax.servlet</groupId>
+                <artifactId>javax.servlet-api</artifactId>
+                <version>3.1.0</version>
             </dependency>
         </dependencies>
     </dependencyManagement>
