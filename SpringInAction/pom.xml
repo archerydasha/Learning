@@ -16,6 +16,8 @@
         <module>5_MixingUp</module>
         <module>6_Webapp_with_profiles</module>
         <module>7_Mixing_up_again</module>
+        <module>8_Profiles</module>
+        <module>9_Conditional</module>
     </modules>
 
 
