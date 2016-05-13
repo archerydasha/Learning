@@ -21,6 +21,8 @@
         <module>10_Primary</module>
         <module>11_CustomQualifiers</module>
         <module>12_Scopes</module>
+        <module>13_Properties</module>
+        <module>14_PropertyPlaceholders</module>
     </modules>
 
 
@@ -30,6 +32,11 @@
 
     <dependencyManagement>
         <dependencies>
+            <dependency>
+                <groupId>org.springframework</groupId>
+                <artifactId>spring-beans</artifactId>
+                <version>${spring.version}</version>
+            </dependency>
             <dependency>
                 <groupId>org.springframework</groupId>
                 <artifactId>spring-context</artifactId>
