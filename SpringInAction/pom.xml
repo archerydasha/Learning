@@ -23,6 +23,7 @@
         <module>12_Scopes</module>
         <module>13_Properties</module>
         <module>14_PropertyPlaceholders</module>
+        <module>15_AOP</module>
     </modules>
 
 
@@ -78,6 +79,11 @@
                 <groupId>javax.servlet</groupId>
                 <artifactId>javax.servlet-api</artifactId>
                 <version>3.1.0</version>
+            </dependency>
+            <dependency>
+                <groupId>org.aspectj</groupId>
+                <artifactId>aspectjweaver</artifactId>
+                <version>1.8.9</version>
             </dependency>
         </dependencies>
     </dependencyManagement>
