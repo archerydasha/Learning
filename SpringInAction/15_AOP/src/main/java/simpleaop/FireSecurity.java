@@ -17,8 +17,6 @@ public class FireSecurity {
     public void performance() {
     }
 
-    ;
-
     @Around("performance()")
     public void around(ProceedingJoinPoint joinPoint) {
         System.out.println("Fire security is preparing");

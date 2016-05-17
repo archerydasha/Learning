@@ -11,7 +11,8 @@ import org.springframework.stereotype.Component;
 public class Audience {
 
     @Pointcut("execution(** Performance.perform(..))")
-    public void performance(){}
+    public void performance() {
+    }
 
     @Before("performance()")
     public void beforePerformance(){

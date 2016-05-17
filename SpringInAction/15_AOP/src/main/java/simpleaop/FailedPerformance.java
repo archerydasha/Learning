@@ -12,7 +12,7 @@ public class FailedPerformance extends Performance {
     }
 
     @Override
-    public void perform(){
+    public void perform() {
         throw new FireException("Someone burnt a guitar on the scene");
     }
 }

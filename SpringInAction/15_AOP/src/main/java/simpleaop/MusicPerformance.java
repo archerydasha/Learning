@@ -7,7 +7,7 @@ import org.springframework.stereotype.Component;
  */
 @Component("musicPerformance")
 public class MusicPerformance extends Performance {
-    public MusicPerformance(){
+    public MusicPerformance() {
         super("BEST MUSIC EVER");
     }
 }

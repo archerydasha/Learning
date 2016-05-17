@@ -15,14 +15,14 @@ public class MainClass {
         try {
             Performance secondPerformance = (Performance) context.getBean("badPerformance");
             secondPerformance.perform();
-        }catch (Throwable t){
+        } catch (Throwable t) {
             t.printStackTrace();
         }
 
         try {
             Performance thirdPerformance = (Performance) context.getBean("failedPerformance");
             thirdPerformance.perform();
-        }catch (Throwable t){
+        } catch (Throwable t) {
             t.printStackTrace();
         }
 
