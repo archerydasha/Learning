@@ -24,6 +24,7 @@
         <module>13_Properties</module>
         <module>14_PropertyPlaceholders</module>
         <module>15_AOP</module>
+        <module>16_Aop_With_Parameter</module>
     </modules>
 
 
