@@ -26,6 +26,7 @@
         <module>15_AOP</module>
         <module>16_Aop_With_Parameter</module>
         <module>17_Introduction</module>
+        <module>18_AOP_PureAspectJ</module>
     </modules>
 
 
