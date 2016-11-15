@@ -15,6 +15,7 @@
         <module>DefaultMethods</module>
         <module>Basics</module>
         <module>Generics</module>
+        <module>MultipleInheritance</module>
     </modules>
 
 
